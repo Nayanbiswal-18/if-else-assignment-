@@ -1,0 +1,21 @@
+// 1.//  Write a Java program to check whether a given number is positive, negative, or zero using an if-else statement.
+
+class Test 
+{
+	public static void main(String[] args) 
+	{
+		int number =-1;
+		
+		if(number>0){
+			System.out.println("it is a positive number");
+		}
+	   else if (number<0) {
+		System.out.println("it is a negetive number");
+
+		
+	   } else {
+		System.out.println(" number is zero");
+		
+	   }
+	}
+}
